@@ -1,0 +1,9 @@
+#TODO: Move to application.properties to avoid two applicaiton files!
+app:
+  name: spring-usermanaged-rest-api
+
+jwt:
+  header: Authorization
+  expires_in: 946080000 # 30 years in seconds
+  secret: HBd59Mb3KqbkKHkbCEHJoZ2UKPGmh03J
+
